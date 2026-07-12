@@ -44,6 +44,8 @@ Use a USB to RS-485 adapter. The adapter tested here appears on macOS as:
 VID:PID 1a86:7523
 ```
 
+Adapter used during debugging: <https://ozon.ru/t/iNot3Bo>
+
 That VID/PID is commonly used by CH340/CH341 USB serial chips. Other USB-RS485 adapters should work if they expose a normal serial port.
 
 Recommended parts:
