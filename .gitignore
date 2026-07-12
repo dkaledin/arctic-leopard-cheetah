@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local reverse-engineering captures and bulky vendor files.
+_local_artifacts/
+captures/
+archive/
+*.sr
+*.bin
+*.csv
+*.zip
+*_uart_*.txt
+*_rs485.txt
+
+# Local virtual environments.
+.venv/
+venv/
