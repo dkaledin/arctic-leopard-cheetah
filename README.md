@@ -4,6 +4,12 @@ Small Python tools and protocol notes for talking to the handlebar control bus o
 
 This project is based on reverse engineering of the left and right handlebar switch packets. The bus is **not classic CAN**. The tested control line behaves like **half-duplex RS-485 / UART at 19200 baud, 8N1, LSB first**.
 
+## Описание на русском
+
+Этот репозиторий содержит скрипты и описание протокола пультов электромотоцикла **Arctic Leopard Cheetah**. Мы выяснили, что на исследованном разъёме идёт не CAN-шина, а RS-485/UART-подобный обмен на `19200 8N1`. Скрипт позволяет через USB-RS485 адаптер отправлять команды пультов: `READY`, `DRIVE`, `PARK`, переключение режимов, поворотники, свет, сигнал, рекуперацию и задний ход.
+
+Проект может быть полезен тем, кто ищет: Arctic Leopard Cheetah CAN, протокол пульта Arctic Leopard, RS-485 пульт электромотоцикла, reverse engineering электромотоцикла, управление контроллером через UART/RS485.
+
 The main script is:
 
 ```bash
