@@ -18,6 +18,13 @@ baudrate: 19200
 format:   8 data bits, no parity, 1 stop bit
 ```
 
+## Demo Videos
+
+These short clips show the prototype connected to the motorcycle through a USB-RS485 adapter and switching drive modes from the script:
+
+- [Drive mode demo 1](media/drive-mode-demo-1.mov)
+- [Drive mode demo 2](media/drive-mode-demo-2.mov)
+
 ## Safety
 
 These commands can affect a real motorcycle.
